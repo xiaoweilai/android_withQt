@@ -16,7 +16,7 @@ SOURCES += main.cpp\
         mainwindow.cpp
 
 INCLUDEPATH += D:\git\android_withQt\ffmpegplayandroid\jni_depend\include
-#INCLUDEPATH += D:\git\android_withQt\ffmpegplayandroid\jni_depend\SDL\include
+INCLUDEPATH += D:\git\android_withQt\ffmpegplayandroid\jni_depend\SDL\include
 
 LIBS += -LD:\git\android_withQt\ffmpegplayandroid\jni_depend\lib -lswscale
 LIBS += -LD:\git\android_withQt\ffmpegplayandroid\jni_depend\SDL\lib -lSDL2
