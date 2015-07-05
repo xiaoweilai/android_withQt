@@ -41,6 +41,18 @@ extern "C"
 
 int main(int argc, char *argv[])
 {
+    /* Cheat to keep things simple and just use some globals. */
+    static int initialed = 0; //是否初始化了
+    AVFormatContext *pFormatCtx;
+    AVCodecContext *pCodecCtx;
+    AVFrame *pFrame;
+    AVFrame *pFrameRGB;
+    AVFrame *pFrameYUV;
+    int videoStream;
+    int i, numBytes;
+    char *file_path = NULL;
+
+
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
