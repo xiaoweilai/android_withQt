@@ -33,8 +33,8 @@ extern "C"
 //#include "libavutil/samplefmt.h"
 //#include "SDL/SDL.h"
 //#include "SDL/SDL_main.h"
-#include "SDL.h"
-#include "SDL_main.h"
+//#include "SDL.h"
+//#include "SDL_main.h"
 
 };
 
