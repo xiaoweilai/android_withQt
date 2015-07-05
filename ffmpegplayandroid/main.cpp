@@ -17,6 +17,8 @@ extern "C"{
 #include <QFile>
 #include <stdio.h>
 #include <stdint.h>
+
+#undef SDL_main
 //Windows
 extern "C"
 {
@@ -51,6 +53,23 @@ int main(int argc, char *argv[])
     int videoStream;
     int i, numBytes;
     char *file_path = NULL;
+    AVCodec *pCodec;
+    AVPacket *packet;
+    uint8_t *out_buffer;
+
+//    SDL_Texture *bmp = NULL;
+//    SDL_Window *screen = NULL;
+//    SDL_Rect rect;
+//    SDL_Event event;
+
+//    struct SwsContext *img_convert_ctx;
+
+//    //	int videoStream, i, numBytes;
+//    int ret, got_picture;
+
+//    //	SDL_Window* window;
+//    SDL_Renderer* renderer;
+
 
 
     QApplication a(argc, argv);
