@@ -15,9 +15,11 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp
 
-INCLUDEPATH += -I./jni/include
+INCLUDEPATH += D:\git\android_withQt\ffmpegplayandroid\jni_depend\include
+INCLUDEPATH += D:\git\android_withQt\ffmpegplayandroid\jni_depend\SDL\include
 
-LIBS += -LD:\git\android_withQt\ffmpegplayandroid\jni\lib -lswscale
+LIBS += -LD:\git\android_withQt\ffmpegplayandroid\jni_depend\lib -lswscale
+LIBS += -LD:\git\android_withQt\ffmpegplayandroid\jni_depend\SDL\lib -lSDL2
 #LIBS += ./jni/lib/libavcore.a
 #LIBS += ./jni/lib/libavdevice.a
 #LIBS += ./jni/lib/avfilter.lib
