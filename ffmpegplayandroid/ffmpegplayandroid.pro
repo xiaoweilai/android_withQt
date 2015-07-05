@@ -15,6 +15,17 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp
 
+INCLUDEPATH += -I./jni/include
+
+LIBS += -LD:\git\android_withQt\ffmpegplayandroid\jni\lib -lswscale
+#LIBS += ./jni/lib/libavcore.a
+#LIBS += ./jni/lib/libavdevice.a
+#LIBS += ./jni/lib/avfilter.lib
+#LIBS += ./jni/lib/avutil.lib
+#LIBS += ./jni/lib/postproc.lib
+#LIBS += ./jni/lib/swresample.lib
+#LIBS += ./jni/lib/swscale.lib
+
 HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
@@ -22,3 +33,4 @@ FORMS    += mainwindow.ui
 CONFIG += mobility
 MOBILITY = 
 
+INCLUDEPATH += ./jni

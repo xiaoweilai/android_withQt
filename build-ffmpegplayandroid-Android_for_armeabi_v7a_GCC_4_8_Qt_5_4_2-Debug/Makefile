@@ -15,7 +15,7 @@ CXX           = D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/toolchains/arm
 DEFINES       = -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
 CFLAGS        = -Wno-psabi -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -ffunction-sections -funwind-tables -fstack-protector -fno-short-enums -DANDROID -Wa,--noexecstack -fno-builtin-memmove -g -gdwarf-2 -marm -O0 -fno-omit-frame-pointer -Wall -Wno-psabi -W -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -Wno-psabi -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -ffunction-sections -funwind-tables -fstack-protector -fno-short-enums -DANDROID -Wa,--noexecstack -fno-builtin-memmove -std=gnu++0x -g -g -gdwarf-2 -marm -O0 -fno-omit-frame-pointer -Wall -Wno-psabi -W -D_REENTRANT -fPIC $(DEFINES)
-INCPATH       = -I../ffmpegplayandroid -I. -I../../../Qt/Qt5.4.2/5.4/android_armv7/include -I../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets -I../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui -I../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore -I. -I. -I../../../android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include -I../../../android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I../../../android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include -I../../../Qt/Qt5.4.2/5.4/android_armv7/mkspecs/android-g++
+INCPATH       = -I../ffmpegplayandroid -I. -I-I./jni/include -I../ffmpegplayandroid/jni -I../../../Qt/Qt5.4.2/5.4/android_armv7/include -I../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets -I../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui -I../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore -I. -I. -I../../../android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include -I../../../android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I../../../android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include -I../../../Qt/Qt5.4.2/5.4/android_armv7/mkspecs/android-g++
 QMAKE         = D:/Qt/Qt5.4.2/5.4/android_armv7/bin/qmake.exe
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -36,7 +36,7 @@ DISTNAME      = libffmpegplayandroid.so1.0.0
 DISTDIR = D:/git/android_withQt/ffmpegplayandroid/.tmp/libffmpegplayandroid.so1.0.0
 LINK          = D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++
 LFLAGS        = --sysroot=D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/platforms/android-9/arch-arm/ -Wl,-soname,libffmpegplayandroid.so -Wl,--no-undefined -Wl,-z,noexecstack -shared
-LIBS          = $(SUBLIBS) -LD:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a -LD:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/platforms/android-9/arch-arm//usr/lib -LD:/Qt/Qt5.4.2/5.4/android_armv7/lib -lQt5Widgets -Lc:\Utils\android\ndk/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a -Lc:\Utils\android\ndk/platforms/android-9/arch-arm//usr/lib -LC:\Utils\icu32_53_1_mingw482\lib -LC:\utils\postgresql\pgsql\lib -LC:\utils\mysql\mysql\lib -Lc:\mingw491\mingw32\lib -LC:\Utils\pgsql\lib -LD:\Qt\Qt5.4.2\5.4\android_armv7/lib -lQt5Gui -lQt5Core -lGLESv2 -lgnustl_shared -llog -lz -lm -ldl -lc -lgcc
+LIBS          = $(SUBLIBS) -LD:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a -LD:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/platforms/android-9/arch-arm//usr/lib -LD:\git\android_withQt\ffmpegplayandroid\jni\lib -lswscale -LD:/Qt/Qt5.4.2/5.4/android_armv7/lib -lQt5Widgets -Lc:\Utils\android\ndk/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a -Lc:\Utils\android\ndk/platforms/android-9/arch-arm//usr/lib -LC:\Utils\icu32_53_1_mingw482\lib -LC:\utils\postgresql\pgsql\lib -LC:\utils\mysql\mysql\lib -Lc:\mingw491\mingw32\lib -LC:\Utils\pgsql\lib -LD:\Qt\Qt5.4.2\5.4\android_armv7/lib -lQt5Gui -lQt5Core -lGLESv2 -lgnustl_shared -llog -lz -lm -ldl -lc -lgcc
 AR            = D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ar cqs
 RANLIB        = D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ranlib
 SED           = sed
@@ -747,7 +747,7 @@ moc_mainwindow.cpp: ../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QMai
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qicon.h \
 		../ffmpegplayandroid/mainwindow.h \
 		../../../Qt/Qt5.4.2/5.4/android_armv7/bin/moc.exe
-	'D:\Qt\Qt5.4.2\5.4\android_armv7\bin\moc.exe' $(DEFINES) -ID:/Qt/Qt5.4.2/5.4/android_armv7/mkspecs/android-g++ -ID:/git/android_withQt/ffmpegplayandroid -ID:/Qt/Qt5.4.2/5.4/android_armv7/include -ID:/Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets -ID:/Qt/Qt5.4.2/5.4/android_armv7/include/QtGui -ID:/Qt/Qt5.4.2/5.4/android_armv7/include/QtCore -I. -I'D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include' -I'D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include' -I'D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/platforms/android-9/arch-arm//usr/include' ../ffmpegplayandroid/mainwindow.h -o moc_mainwindow.cpp
+	'D:\Qt\Qt5.4.2\5.4\android_armv7\bin\moc.exe' $(DEFINES) -ID:/Qt/Qt5.4.2/5.4/android_armv7/mkspecs/android-g++ -ID:/git/android_withQt/ffmpegplayandroid -ID:/git/android_withQt/ffmpegplayandroid/-I./jni/include -ID:/git/android_withQt/ffmpegplayandroid/jni -ID:/Qt/Qt5.4.2/5.4/android_armv7/include -ID:/Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets -ID:/Qt/Qt5.4.2/5.4/android_armv7/include/QtGui -ID:/Qt/Qt5.4.2/5.4/android_armv7/include/QtCore -I. -I'D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include' -I'D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include' -I'D:\android-ndk-r9d-windows-x86_64\android-ndk-r9d/platforms/android-9/arch-arm//usr/include' ../ffmpegplayandroid/mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -1178,7 +1178,10 @@ main.obj: ../ffmpegplayandroid/main.cpp ..\ffmpegplayandroid\mainwindow.h \
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qeventloop.h \
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qdesktopwidget.h \
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qguiapplication.h \
-		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qinputmethod.h
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qinputmethod.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/QBuffer \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qbuffer.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/QFile
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.obj ../ffmpegplayandroid/main.cpp
 
 mainwindow.obj: ../ffmpegplayandroid/mainwindow.cpp ..\ffmpegplayandroid\mainwindow.h \
@@ -1586,7 +1589,45 @@ mainwindow.obj: ../ffmpegplayandroid/mainwindow.cpp ..\ffmpegplayandroid\mainwin
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qtouchdevice.h \
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qtabwidget.h \
 		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qicon.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/QVariant \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QAction \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qaction.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qactiongroup.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QApplication \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qapplication.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qcoreapplication.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qeventloop.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qdesktopwidget.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qguiapplication.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qinputmethod.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QButtonGroup \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qbuttongroup.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QHeaderView \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qheaderview.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qabstractitemview.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qabstractscrollarea.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qframe.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qabstractitemmodel.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qitemselectionmodel.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qabstractitemdelegate.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qstyleoption.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qabstractspinbox.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qvalidator.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtCore/qregularexpression.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qslider.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qabstractslider.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qstyle.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qtabbar.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qrubberband.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QTextEdit \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/qtextedit.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qtextdocument.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qtextoption.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qtextcursor.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qtextformat.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtGui/qpen.h \
+		../../../Qt/Qt5.4.2/5.4/android_armv7/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.obj ../ffmpegplayandroid/mainwindow.cpp
 
 moc_mainwindow.obj: moc_mainwindow.cpp 
