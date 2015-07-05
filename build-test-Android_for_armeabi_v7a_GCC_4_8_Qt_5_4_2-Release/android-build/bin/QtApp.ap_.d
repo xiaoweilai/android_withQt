@@ -1,0 +1,26 @@
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\bin\QtApp.ap_ \
+ : D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\layout\splash.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values\libs.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-de\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-el\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-es\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-et\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-fa\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-fr\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-id\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-it\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-ja\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-ms\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-nb\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-nl\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-pl\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-pt-rBR\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-ro\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-rs\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-ru\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-zh-rCN\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\res\values-zh-rTW\strings.xml \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\assets\--Added-by-androiddeployqt-- \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\assets\--Added-by-androiddeployqt--\qt_cache_pregenerated_file_list \
+D:\git\android_withQt\build-test-Android_for_armeabi_v7a_GCC_4_8_Qt_5_4_2-Release\android-build\bin\AndroidManifest.xml \
