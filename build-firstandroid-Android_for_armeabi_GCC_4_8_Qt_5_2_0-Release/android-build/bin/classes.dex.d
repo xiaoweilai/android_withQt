@@ -1,0 +1,24 @@
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes.dex : \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\an\qt\hello\BuildConfig.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\an\qt\hello\R$array.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\an\qt\hello\R$attr.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\an\qt\hello\R$layout.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\an\qt\hello\R$string.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\an\qt\hello\R.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\kde\necessitas\ministro\IMinistro$Stub$Proxy.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\kde\necessitas\ministro\IMinistro$Stub.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\kde\necessitas\ministro\IMinistro.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\kde\necessitas\ministro\IMinistroCallback$Stub$Proxy.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\kde\necessitas\ministro\IMinistroCallback$Stub.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\kde\necessitas\ministro\IMinistroCallback.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$1.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$2.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$3$1$1.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$3$1.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$3.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$4.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$5.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$6.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtApplication$InvokeResult.class \
+D:\git\android_withQt\build-firstandroid-Android_for_armeabi_GCC_4_8_Qt_5_2_0-Release\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtApplication.class \
